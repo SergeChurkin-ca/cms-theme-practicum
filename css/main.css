@@ -1,0 +1,32 @@
+/* Theme base styles */
+
+/* Tools
+Any animations, or functions used throughout the project.
+Note: _macros.css needs to be imported into each stylesheet where macros are used and not included here
+*/
+
+/* Generic
+This is where reset, normalize & box-sizing styles go.
+*/
+
+{% include '/Serge CRM Theme Practicum/css/_reset.css' %}
+{% include '/Serge CRM Theme Practicum/css/_normalize.css' %}
+
+/* Objects
+Non-cosmetic design patterns including grid and layout classes)
+*/
+
+{% include '/Serge CRM Theme Practicum/css/_layout.css' %}
+
+
+/* Elements
+Base HMTL elements are styled in this section (<body>, <h1>, <a>, <p>, <button> etc.)
+*/
+
+{% include './_typography.css' %}
+{% include './_hero.css' %}
+{% include './_header.css' %}
+{% include './_footer.css' %}
+ 
+
+ 
